@@ -14,22 +14,44 @@ h1 {
   color: white;
 }
 
-.color {
+.container {
   margin: auto;
   width: 80%;
   border: 2px solid lightgray;
   border-radius: 10px;
+  text-align: center;
 }
 
 h2 {
   padding-left: 50px;
   font-weight: 500;
+  text-align: left;
 }
 
-.slime-green {
-  background-color: #70ff75;
-  width: 33%;
+.color-tile {
+  display: inline-block;
+  width: 30%;
   padding: 15px;
-  margin: 0 3px 15px 5px;
+  margin: 0 3px 10px 3px;
   text-align: center;
+}
+
+#slime-green {
+  background-color: #70ff75;
+}
+
+#dark-green {
+  background-color: #3e7840;
+}
+
+#grey-green {
+  background-color: #566656;
+}
+
+#fade-orange {
+  background-color: #ffbb54;
+}
+
+#fade-red {
+  background-color: #eb634b;
 }
