@@ -2,16 +2,14 @@ body {
   font-family: "Ubuntu", sans-serif;
 }
 
-header {
-  display: inline-block;
-  padding: 40px 50px 20px 50px;
-  text-align: left;
-}
-
-header img {
-  float: right;
+.header {
+  background-color: pink;
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
 }
 
 h1 {
-  font-weight: 500;
+  padding: 50px;
+  color: white;
 }
