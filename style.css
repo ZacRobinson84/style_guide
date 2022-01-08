@@ -39,6 +39,7 @@ h1 {
 }
 
 h2 {
+  background-color: lightgray;
   padding-left: 50px;
   font-weight: 500;
   text-align: left;
@@ -82,4 +83,46 @@ h2 {
 
 #Roboto {
   font-family: "Roboto", sans-serif;
+}
+
+.text-style-display {
+  display: inline-block;
+  align-content: top;
+  margin: 0 50px 50px 50px;
+}
+
+.text-style-display ul {
+  text-align: left;
+  font-weight: 300;
+}
+
+#text-style-h1 {
+  padding: 15px 10px 5px 15px;
+  color: black;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 36px;
+  text-align: left;
+}
+
+#text-style-h2 {
+  background-color: white;
+  padding: 15px 10px 5px 15px;
+  color: black;
+  font-family: Comfortaa;
+  font-weight: 500;
+  font-size: 26px;
+  text-align: left;
+}
+
+#text-style-p {
+  padding: 15px 10px 5px 15px;
+  font-family: Comfortaa;
+  font-weight: 300;
+  font-size: 18;
+  text-align: left;
+}
+
+#text-style-container {
+  margin-bottom: 40px;
 }
